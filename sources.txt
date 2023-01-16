@@ -1,0 +1,78 @@
+
+GENERAL TOPICS: 
+
+    - quantum registers, including the difference between classical and quantum registers, how to construct single and multiple qubit registers, and how to measure quantum registers into classical registers;
+
+    - how to install Qiskit (https://qiskit.org/documentation/getting_started.html);
+
+    - define a quantum circuit, represent qubit states, and visualize circuits (https://qiskit.org/documentation/stubs/qiskit.circuit.Gate.html). Apply single and multi-qubit gates, use the barrier operation (https://qiskit.org/documentation/stubs/qiskit.circuit.library.Barrier.html), calculate the circuit depth (https://medium.com/arnaldo-gunzi-quantum/how-to-calculate-the-depth-of-a-quantum-circuit-in-qiskit-868505abc104), and extend quantum circuits (https://qiskit.org/documentation/stubs/qiskit.extensions.Initialize.html). Execute a circuit (https://qiskit.org/documentation/apidoc/execute.html), and understand quantum and classical registers (https://qiskit.org/documentation/stubs/qiskit.circuit.QuantumRegister.html) as well as measurement;
+
+    - understand operators as well as fidelity (https://qiskit.org/documentation/stubs/qiskit.quantum_info.state_fidelity.html);
+
+    - use simulators (https://qiskit.org/documentation/tutorials/simulators/1_aer_provider.html) to run a quantum circuit (https://qiskit.org/documentation/apidoc/providers_basicaer.html). This includes returning the histogram, statevector, and unitary of an experiment, which simulators are available, and how to access each simulator backend;
+
+    - OpenQASM (https://medium.com/qiskit/a-new-openqasm-for-a-new-era-of-dynamic-circuits-87f031cac49) and how to employ it in Qiskit (https://qiskit.org/documentation/stubs/qiskit.qasm.Qasm.html). This includes returning an OpenQASM string for a circuit and reading a QASM file (https://github.com/openqasm/openqasm);
+
+    - what backends are (https://quantum-computing.ibm.com/lab/docs/iql/manage/account/ibmq) and how to work with them (https://qiskit.org/documentation/stubs/qiskit.providers.ibmq.IBMQBackend.html). This includes a general overview of the backends and monitoring the status of a job (https://medium.com/qiskit/qiskit-backends-what-they-are-and-how-to-work-with-them-fb66b3bd0463);
+
+   - advanced understanding of how to visualize the results of your circuits. This includes drawing the circuit, plotting the data (https://qiskit.org/documentation/tutorials/circuits/2_plotting_data_in_qiskit.html), plotting a Bloch vector and multivector, plotting a Qsphere, plotting a density matrix, and plotting a gate map with error rates.
+
+ - leveraging fundamental Qiskit SDK features including commonly-used classes and functions located in qiskit.circuit, qiskit.execute, qiskit.providers, qiskit.qasm, qiskit.quantum_info, qiskit.tools, and qiskit.visualization packages.
+
+
+SPECIFIC TOPICS:
+
+ - Perform operations on quantum circuits:
+
+    - construct multi-qubit quantum registers
+    - measure quantum circuits in classical registers
+    - use single-qubit gates
+    - use multi-qubit gates
+    - use barrier operations
+    - return the circuit depth
+    - extend quantum circuits
+    - return the OpenQASM string for a circuit
+
+ - Executing experiments:
+   - execute a quantum circuit
+
+ - Implement BasicAer: Python-based Simulators:
+   - use the available simulators
+
+ - Implement Qasm:
+   - read a QASM file and string
+
+ - Compare and contrast quantum infromation:
+   - use classical and quantum registers
+   - use operators
+   - measure fidelity
+
+ - Return the experimented results:
+   - return and understand the histogram data of an experiment
+   - return and understand the statevector of an experiment
+   - return and understand the unitary of an experiment
+
+ - Use Qiskit tools:
+   - monitor the status of a job instance
+
+ - Display and use system information:
+   - perform operations around the Qiskit version
+   - use information gained from %quiskit_backend_overview
+
+ - Construct visualizations:
+   - draw a circuit
+   - plot a histogram of data
+   - plot a Bloch multivector
+   - plot a Bloch vector
+   - plot a QSphere
+   - plot a density matrix
+   - plot a gate map with error rates
+
+ - Access Aer Provider:
+    - access a statevector_simulator backend
+    - access a qasm_simulator backend
+    - access a unitary_simulator backend
+
+MAIN SOURCES:
+
+ - https://qiskit.org/textbook/preface.html (chs. 1 & 2 & 3.1 mainly)
