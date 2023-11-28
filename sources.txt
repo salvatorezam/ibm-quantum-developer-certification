@@ -17,7 +17,7 @@ GENERAL TOPICS:
 
    - advanced understanding of how to visualize the results of your circuits. This includes drawing the circuit, plotting the data (https://qiskit.org/documentation/tutorials/circuits/2_plotting_data_in_qiskit.html), plotting a Bloch vector and multivector, plotting a Qsphere, plotting a density matrix, and plotting a gate map with error rates.
 
- - leveraging fundamental Qiskit SDK features including commonly-used classes and functions located in qiskit.circuit, qiskit.execute, qiskit.providers, qiskit.qasm, qiskit.quantum_info, qiskit.tools, and qiskit.visualization packages.
+   - leveraging fundamental Qiskit SDK features including commonly-used classes and functions located in qiskit.circuit, qiskit.execute, qiskit.providers, qiskit.qasm, qiskit.quantum_info, qiskit.tools, and qiskit.visualization packages.
 
 
 SPECIFIC TOPICS:
